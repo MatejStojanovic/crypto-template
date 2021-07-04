@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36f33493.chunk.css",
+    "main.js": "/static/js/main.984c6a76.chunk.js",
+    "main.js.map": "/static/js/main.984c6a76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c81bed3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c81bed3e.js.map",
+    "static/css/2.d45d6843.chunk.css": "/static/css/2.d45d6843.chunk.css",
+    "static/js/2.8a699ea0.chunk.js": "/static/js/2.8a699ea0.chunk.js",
+    "static/js/2.8a699ea0.chunk.js.map": "/static/js/2.8a699ea0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.36f33493.chunk.css.map": "/static/css/main.36f33493.chunk.css.map",
+    "static/js/2.8a699ea0.chunk.js.LICENSE.txt": "/static/js/2.8a699ea0.chunk.js.LICENSE.txt",
+    "static/media/crypto.51449aee.svg": "/static/media/crypto.51449aee.svg",
+    "static/media/main.scss": "/static/media/infoPicture.a2e0cc74.jpg",
+    "static/media/insurance.0005ebbe.svg": "/static/media/insurance.0005ebbe.svg",
+    "static/media/investment.66d8f0e8.svg": "/static/media/investment.66d8f0e8.svg",
+    "static/media/logo.d1aaa4d9.png": "/static/media/logo.d1aaa4d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c81bed3e.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.8a699ea0.chunk.js",
+    "static/css/main.36f33493.chunk.css",
+    "static/js/main.984c6a76.chunk.js"
+  ]
+}
