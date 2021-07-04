@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #2f3744;
+  display: flex;
+}
+.main-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 34%;
+  flex: 1;
+  &_logo {
+    width: 8rem;
+  }
+  &_name {
+    display: flex;
+    align-items: center;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 2rem;
+  margin-right: 2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  &:hover {
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+}
+
+.navbar-toggler-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+  margin-right: 4rem !important;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+@media only screen and (max-width: 408px) {
+  .main-navbar {
+    margin-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-navbar {
+    margin-left: 2%;
+  }
+  .nav-link {
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 1588px) {
+  .main-navbar {
+    margin-right: 22%;
+  }
+}
+
+@media only screen and (max-width: 1258px) {
+  .main-navbar {
+    margin-right: 15%;
+  }
+}
+@media only screen and (max-width: 1198px) {
+  .main-navbar {
+    margin-right: 8%;
+  }
+}

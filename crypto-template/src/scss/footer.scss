@@ -1,0 +1,19 @@
+$bgColor: #00af92;
+
+.footer {
+  background: #2f3744;
+  color: white;
+  font-size: 1.5rem;
+  // margin-top: -2.5%;
+
+  &__links:hover {
+    cursor: pointer;
+  }
+  &__links {
+    p:hover {
+      color: $bgColor;
+      transform: scale(1.1);
+      transition: 0.4s;
+    }
+  }
+}
