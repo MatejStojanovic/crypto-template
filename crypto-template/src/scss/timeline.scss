@@ -1,0 +1,51 @@
+.timeline {
+  margin-bottom: 15rem;
+  &_paper {
+    background-color: #2f3744 !important;
+    padding: 2.5rem;
+    &_title {
+      font-size: 3rem;
+    }
+  }
+  &_title {
+    color: rgb(139, 139, 139);
+    font-weight: 900;
+  }
+  &_dot {
+    background-color: #00af92 !important;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  &_separator {
+    height: 20rem;
+  }
+}
+
+.icon {
+  font-size: 12.5rem;
+  path {
+    color: #00af92;
+  }
+}
+
+.roadmap-container {
+  margin-top: 15rem;
+  margin-bottom: 4rem;
+}
+
+.roadmap-title {
+  text-align: center;
+  margin-top: 1rem;
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+}
+
+.roadmap-subtitle {
+  text-align: center;
+  margin-top: 1rem;
+  h5 {
+    font-size: 1.75rem;
+  }
+}

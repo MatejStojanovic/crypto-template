@@ -1,0 +1,83 @@
+.card-deck {
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: row wrap;
+  //  margin-right: 15rem;
+}
+.card {
+  border-radius: 1.25rem !important;
+  border: none !important;
+
+  background-color: transparent !important;
+  transform: translateY(0rem);
+  transition: 0.6s;
+}
+
+.card-text {
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+.card-img {
+  width: 60% !important;
+  height: 70% !important;
+  flex-shrink: 1 !important;
+  align-self: center;
+}
+.services {
+  &_row {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  margin-bottom: 10rem;
+}
+
+.card-services {
+  background-color: #2f3744 !important;
+}
+.card-services:hover {
+  color: white !important;
+  cursor: pointer;
+  transform: translateY(-3rem);
+  transition: 0.6s;
+  .card-text {
+    color: white;
+  }
+  .card-title {
+    color: white;
+  }
+}
+.card::after {
+  animation-direction: reverse;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-services {
+    margin-bottom: 4rem;
+  }
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hero {
+    margin-left: 2%;
+  }
+  .services {
+    &_row {
+      margin-left: 2%;
+      margin-right: 4%;
+    }
+  }
+}
